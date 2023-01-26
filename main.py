@@ -6,7 +6,7 @@ import datetime
 # def main() -> None:
 # specify a unique name for the video
 file_name: str = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
-file_name = file_name + ".mp4"
+file_name = "./outputs/"+file_name + ".mp4"
 # specify the resolution
 # specify the width and height of screen
 image = ImageGrab.grab()
